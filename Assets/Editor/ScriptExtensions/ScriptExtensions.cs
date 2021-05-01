@@ -13,19 +13,19 @@ public class POPScriptExtensions : Editor
     /// </summary>
     private static Texture2D scriptIcon = (EditorGUIUtility.IconContent("cs Script Icon").image as Texture2D);
 
-    [MenuItem("Assets/Create/Stella C# Script", priority = 0)]
+    [MenuItem("Assets/Create/SB C# Script", priority = 0)]
     private static void CreateScript()
     {
         CodeTemplates.CreateFromTemplate("NewScript.cs", @"Assets/Editor/ScriptExtensions/Template/ScriptTemplate.txt");
     }
 
-    [MenuItem("Assets/Create/Stella C# Interface", priority = 0)]
+    [MenuItem("Assets/Create/SB C# Interface", priority = 0)]
     private static void CreateInterface()
     {
         CodeTemplates.CreateFromTemplate("NewInterface.cs", @"Assets/Editor/ScriptExtensions/Template/InterfaceTemplate.txt");
     }
 
-    [MenuItem("Assets/Create/Stella MonoBehaviour C# Script", priority = 0)]
+    [MenuItem("Assets/Create/SB MonoBehaviour C# Script", priority = 0)]
     private static void CreateMonoBehaviourScript()
     {
         CodeTemplates.CreateFromTemplate("NewMonoBehaviourScript.cs", @"Assets/Editor/ScriptExtensions/Template/MonoBehaviourTemplate.txt");
@@ -99,7 +99,7 @@ public class CodeTemplates
             }
 
             templateText = templateText.Replace("#SCRIPTNAME#", className);
-            templateText = templateText.Replace("#NAMESPACE#", $"Stella{namespaceStr}");
+            templateText = templateText.Replace("#NAMESPACE#", $"SB{namespaceStr}");
 
             using (var sw = new StreamWriter(newFilePath, false, encoding))
             {

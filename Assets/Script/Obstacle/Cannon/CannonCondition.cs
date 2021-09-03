@@ -25,8 +25,10 @@ namespace Script.Obstacle.Cannon
             {
                 Debug.DrawRay(_rigid.position, DirectionHelper.DirectionToVector(observingDirection), Color.blue);
                 var raycastHit2D =
-                    Physics2D.Raycast(_rigid.position, DirectionHelper.DirectionToVector(observingDirection), observableDistance);
+                    Physics2D.Raycast(_rigid.position, DirectionHelper.DirectionToVector(observingDirection),
+                        observableDistance);
                 IsActivated = (raycastHit2D.collider != null) && (raycastHit2D.collider.CompareTag("Player"));
+                Debug.Log(IsActivated);
             }
         }
 

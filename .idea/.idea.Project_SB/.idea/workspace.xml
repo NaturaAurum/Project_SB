@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad96cc6-1dba-4ca6-a915-bc491ea6bcd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/Stalactite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/Stalactite/StalactiteAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/Stalactite/StalactiteAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/Stalactite/StalactiteCondition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/Stalactite/StalactiteCondition.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project_SB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project_SB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cannon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cannon.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Obstacle/Cannon/CannonCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Obstacle/Cannon/CannonCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Obstacle/ReactiveSpike.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Obstacle/ReactiveSpike/ReactiveSpikeAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Obstacle/ReactiveSpike/ReactiveSpikeAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Obstacle/ReactiveSpike/ReactiveSpikeCondition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Obstacle/ReactiveSpike/ReactiveSpikeCondition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +91,9 @@
       <updated>1619876576126</updated>
       <workItem from="1619876580975" duration="3511000" />
       <workItem from="1629190372160" duration="1159000" />
+      <workItem from="1630228783196" duration="2217000" />
+      <workItem from="1630405813662" duration="472000" />
+      <workItem from="1630406409319" duration="2075000" />
     </task>
     <servers />
   </component>

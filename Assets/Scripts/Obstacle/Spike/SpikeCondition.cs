@@ -1,7 +1,6 @@
-using System;
 using UnityEngine;
 
-namespace Script.Obstacle.Spike
+namespace Obstacle.Spike
 {
     public class SpikeCondition : MonoBehaviour, ICondition
     {

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1314216660175526168}
   - component: {fileID: 7790445555431034481}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Stalactite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

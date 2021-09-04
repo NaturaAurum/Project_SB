@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Script.Obstacle.Spike
+namespace Obstacle.Spike
 {
     public class SpikeAction : MonoBehaviour, IAction
     {

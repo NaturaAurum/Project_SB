@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Script.Obstacle.Cannon
+namespace Obstacle.Cannon
 {
     public class CannonCondition : MonoBehaviour, ICondition
     {
@@ -28,7 +28,6 @@ namespace Script.Obstacle.Cannon
                     Physics2D.Raycast(_rigid.position, DirectionHelper.DirectionToVector(observingDirection),
                         observableDistance);
                 IsActivated = (raycastHit2D.collider != null) && (raycastHit2D.collider.CompareTag("Player"));
-                Debug.Log(IsActivated);
             }
         }
 

@@ -1,19 +1,19 @@
 using UnityEngine;
 
-namespace Script.Obstacle
+namespace Obstacle
 {
     public class Obstacle : MonoBehaviour
     {
         private IAction _action;
         private ICondition _condition;
 
-        private void Start()
+        public void Start()
         {
             _action = GetComponent<IAction>();
             _condition = GetComponent<ICondition>();
         }
 
-        private void Update()
+        public void Update()
         {
             if (_condition.CheckCondition()) 
             {

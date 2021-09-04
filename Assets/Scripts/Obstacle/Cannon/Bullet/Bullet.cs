@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Script.Obstacle.Cannon.Bullet
+namespace Obstacle.Cannon.Bullet
 {
     public class Bullet : MonoBehaviour
     {

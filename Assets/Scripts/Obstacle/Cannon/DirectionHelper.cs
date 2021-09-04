@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Script.Obstacle.Cannon
+namespace Obstacle.Cannon
 {
     public static class DirectionHelper
     {

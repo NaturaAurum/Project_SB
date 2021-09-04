@@ -1,7 +1,8 @@
+using Script.Platform;
 using Unity.Collections;
 using UnityEngine;
 
-namespace Script.Platform
+namespace Platform
 {
     public class MoveablePlatform : MonoBehaviour
     {

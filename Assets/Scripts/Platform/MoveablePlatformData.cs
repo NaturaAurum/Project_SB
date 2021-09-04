@@ -1,7 +1,8 @@
 using System.Collections.Generic;
+using Script.Platform;
 using UnityEngine;
 
-namespace Script.Platform
+namespace Platform
 {
     [CreateAssetMenu(fileName = "New MoveablePlatformData", menuName = "Data/MoveablePlatformData")]
     public class MoveablePlatformData : ScriptableObject

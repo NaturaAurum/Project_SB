@@ -1,7 +1,7 @@
-﻿using Script.Obstacle.Cannon;
+﻿using Obstacle.Cannon;
 using UnityEngine;
 
-namespace Script.Obstacle.Stalactite
+namespace Obstacle.Stalactite
 {
     public class StalactiteAction : MonoBehaviour, IAction
     {

@@ -1,4 +1,4 @@
-namespace Script.Obstacle
+namespace Obstacle
 {
     public interface ICondition
     {

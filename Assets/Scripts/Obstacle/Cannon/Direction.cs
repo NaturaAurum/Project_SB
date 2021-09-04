@@ -1,4 +1,4 @@
-﻿namespace Script.Obstacle.Cannon
+﻿namespace Obstacle.Cannon
 {
     public enum Direction
     {

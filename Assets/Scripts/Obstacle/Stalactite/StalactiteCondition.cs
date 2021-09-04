@@ -1,7 +1,7 @@
-﻿using Script.Obstacle.Cannon;
+﻿using Obstacle.Cannon;
 using UnityEngine;
 
-namespace Script.Obstacle.Stalactite
+namespace Obstacle.Stalactite
 {
     public class StalactiteCondition : MonoBehaviour, ICondition
     {
@@ -22,7 +22,6 @@ namespace Script.Obstacle.Stalactite
                 Physics2D.Raycast(_rigid.position, DirectionHelper.DirectionToVector(ObservingDirection),
                     ObservableDistance);
             IsActivated = (raycastHit2D.collider != null) && (raycastHit2D.collider.CompareTag("Player"));
-            Debug.Log(IsActivated);
         }
 
         public bool CheckCondition()

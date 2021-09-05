@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using SB.Data;
+using SB.GameLogic;
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.Tilemaps;
@@ -18,6 +20,16 @@ namespace SB.Ingame.Environment.Map.MapTool
         public Tilemap TargetTileMap;
 
         public BlockTiles TileData = null;
+
+        private void Awake()
+        {
+            TargetTileMap.transform.parent.gameObject.SetActive(false);
+        }
+
+        private void Start()
+        {
+            GameManager.Instance.SetMapInfo(Data.GetValue(Id));
+        }
 
         public BlockId FindIdByValue(Tile tile)
         {

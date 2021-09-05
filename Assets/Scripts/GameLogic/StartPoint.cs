@@ -6,6 +6,15 @@ namespace SB.GameLogic
 {
     public class StartPoint : PointBase
     {
-        // TODO : CharacterManager에서 Character 불러와서 transform 바꿔주기
+        private IEnumerator Start()
+        {
+            while (GameManager.Instance == null)
+                yield return null;
+
+            while (GameManager.Instance.CurrentPlayer == null)
+                yield return null;
+
+            GameManager.Instance.CurrentPlayer.transform.position = transform.position;
+        }
     }
 }

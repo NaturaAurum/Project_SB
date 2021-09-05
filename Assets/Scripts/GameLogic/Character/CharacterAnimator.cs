@@ -27,6 +27,7 @@ namespace SB.GameLogic.Character
             modelInstance.transform.localRotation = Quaternion.identity;
             modelInstance.transform.localScale = Vector3.one * characterData.Scale;
             camTarget = modelInstance.FindDeep("CamTarget");
+            character.CamTarget = camTarget;
 
             animator = modelInstance.GetComponent<Animator>();
             spriteRenderer = modelInstance.GetComponent<SpriteRenderer>();

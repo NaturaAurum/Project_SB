@@ -39,6 +39,10 @@ namespace SB.GameLogic.Character
         
         public void Listen(ICommand command)
         {
+            if (command is InitCommand)
+            {
+                nextState = new IdleState(character);
+            }
             DoCommand(command);
         }
 

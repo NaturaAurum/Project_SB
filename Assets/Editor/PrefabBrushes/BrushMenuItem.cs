@@ -52,6 +52,18 @@ namespace UnityEditor.Tilemaps
         {
             Create<StalactiteBrush>();
         }
+        
+        [MenuItem("Assets/Create/2D/Brushes/StartPointBrush")]
+        static void CreateStartPointBrush()
+        {
+            Create<StartPointBrush>();
+        }
+        
+        [MenuItem("Assets/Create/2D/Brushes/EndPointBrush")]
+        static void CreateEndPointBrush()
+        {
+            Create<EndPointBrush>();
+        }
 
         private static void Create<T>() where T : ScriptableObject
         {

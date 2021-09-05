@@ -10,7 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 8637159247141592393}
   - component: {fileID: 8637159247141592406}
-  - component: {fileID: 8637159247141592407}
+  - component: {fileID: 1425479587118329017}
+  - component: {fileID: 1136093368253542617}
+  - component: {fileID: 1464716630863554563}
   m_Layer: 0
   m_Name: PeriodicSpike
   m_TagString: Untagged
@@ -85,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8637159247141592407
+--- !u!114 &1425479587118329017
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,10 +96,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 8637159247141592404}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d8f39da65aa420090bc2d7ce595c367, type: 3}
+  m_Script: {fileID: 11500000, guid: eca539bbec0233945bff23260bac1334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1136093368253542617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637159247141592404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2170047496a441c8d3147f657bf59bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DeactivateTime: 3
+--- !u!114 &1464716630863554563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8637159247141592404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ea7715bd311423f8052d96659e7a797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ActivateTime: 2
-  DeactivateTime: 3
   prefabObj: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
     type: 3}

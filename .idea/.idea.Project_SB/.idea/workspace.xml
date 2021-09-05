@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad96cc6-1dba-4ca6-a915-bc491ea6bcd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpikeAction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpikeAction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpikeCondition.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpikeCondition.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project_SB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project_SB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/CharacterCommonData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Data/CharacterCommonData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/whatisThis.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/whatisThis.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PeriodicSpike.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PeriodicSpike.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpike.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpike.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,6 +92,7 @@
       <workItem from="1630757295680" duration="7041000" />
       <workItem from="1630765551047" duration="5089000" />
       <workItem from="1630771786859" duration="1437000" />
+      <workItem from="1630832653676" duration="1625000" />
     </task>
     <servers />
   </component>

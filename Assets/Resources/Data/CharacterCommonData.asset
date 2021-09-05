@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e913e34b5c249e794f22b6061422e35, type: 3}
   m_Name: CharacterCommonData
   m_EditorClassIdentifier: 
+  Health: 3
   GroundAcc: 50
   GroundMaxSpeed: 10
   AirAcc: 50

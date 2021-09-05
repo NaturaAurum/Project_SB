@@ -22,6 +22,7 @@ namespace SB.GameLogic.Character
         public bool CanJump => RemainJumpCount > 0;
         
         public int RemainJumpCount { get; private set; }
+        public int Health { get; private set; }
         
         public Vector2 MoveDirection { get; private set; }
 
@@ -69,6 +70,14 @@ namespace SB.GameLogic.Character
             else if (command is MoveCommand moveCommand)
             {
                 MoveDirection = moveCommand.Direction;
+            }
+            else if (command is CharacterHitCommand)
+            {
+                Health--;
+                if (Health == 0)
+                {
+                    Destroy(this);
+                }
             }
         }
     }

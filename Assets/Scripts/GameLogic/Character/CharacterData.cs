@@ -10,6 +10,10 @@ namespace SB.GameLogic.Character
     [CreateAssetMenu(fileName = "New CharacterData", menuName = "Data/Character/Common")]
     public class CharacterData : ScriptableObject
     {
+        [FoldoutGroup("Health")]
+        [LabelText("체력")]
+        public float Health;
+        
         [FoldoutGroup("Ground Physics")]
         [LabelText("땅에서 가속도")]
         public float GroundAcc;

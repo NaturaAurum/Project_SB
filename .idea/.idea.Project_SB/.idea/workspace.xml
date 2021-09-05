@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad96cc6-1dba-4ca6-a915-bc491ea6bcd2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpike.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/PeriodicSpike.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Project_SB/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Project_SB/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Square.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Square.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/Bullet/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/Bullet/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/CannonAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/CannonAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/CannonCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/CannonCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/Direction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/Direction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/DirectionHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Cannon/DirectionHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/IAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/IAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/ICondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/ICondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Obstacle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/SpikeAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/SpikeAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/SpikeCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Spike/SpikeCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Stalactite/StalactiteAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Stalactite/StalactiteAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Stalactite/StalactiteCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle/Stalactite/StalactiteCondition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Platform/MoveablePlatform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platform/MoveablePlatform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Platform/MoveablePlatformData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Platform/MoveablePlatformData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Data/CharacterCommonData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Data/CharacterCommonData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CharacterTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CharacterTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameLogic/Character/CharacterData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whatisThis.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/whatisThis.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +25,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/4b/333f5786/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -100,7 +87,9 @@
       <workItem from="1630228783196" duration="2217000" />
       <workItem from="1630405813662" duration="472000" />
       <workItem from="1630406409319" duration="2075000" />
-      <workItem from="1630757295680" duration="5951000" />
+      <workItem from="1630757295680" duration="7041000" />
+      <workItem from="1630765551047" duration="5089000" />
+      <workItem from="1630771786859" duration="1437000" />
     </task>
     <servers />
   </component>

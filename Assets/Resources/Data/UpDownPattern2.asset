@@ -10,36 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee65cb5ce42f109479e4d8374437182b, type: 3}
-  m_Name: MovablePlatformData
+  m_Name: UpDownPattern2
   m_EditorClassIdentifier: 
   DataList:
-  - MoveTime: 8
-    WaitTime: 1
-    Speed: 5
-    Direction: {x: 0, y: -1, z: 0}
-    useTarget: 0
-    TargetPosition: {x: 0, y: 0}
   - MoveTime: 8
     WaitTime: 1
     Speed: 5
     Direction: {x: 0, y: 1, z: 0}
     useTarget: 0
     TargetPosition: {x: 0, y: 0}
-  - MoveTime: 0
-    WaitTime: 0
-    Speed: 0
-    Direction: {x: 0, y: 0, z: 0}
-    useTarget: 0
-    TargetPosition: {x: 0, y: 0}
-  - MoveTime: 0
-    WaitTime: 0
-    Speed: 0
-    Direction: {x: 0, y: 0, z: 0}
-    useTarget: 0
-    TargetPosition: {x: 0, y: 0}
-  - MoveTime: 0
-    WaitTime: 0
-    Speed: 0
-    Direction: {x: 0, y: 0, z: 0}
+  - MoveTime: 8
+    WaitTime: 1
+    Speed: 5
+    Direction: {x: 0, y: -1, z: 0}
     useTarget: 0
     TargetPosition: {x: 0, y: 0}

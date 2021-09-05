@@ -503,6 +503,11 @@ MonoBehaviour:
         Category: 1
       Position: {x: 0, y: 71.68}
     - Id:
+        Id: 7
+        Type: 5
+        Category: 1
+      Position: {x: 92.159996, y: 71.68}
+    - Id:
         Id: 6
         Type: 6
         Category: 1
@@ -533,6 +538,11 @@ MonoBehaviour:
         Category: 1
       Position: {x: 0, y: 92.159996}
     - Id:
+        Id: 1
+        Type: 6
+        Category: 1
+      Position: {x: 174.08, y: 92.159996}
+    - Id:
         Id: 6
         Type: 6
         Category: 1
@@ -562,7 +572,68 @@ MonoBehaviour:
         type: 3}
       Position: {x: 79.36, y: 38.399998, z: 2.56}
       Rotation: {x: -0, y: -0, z: -0, w: 1}
-    movablePlatformList: []
+    - Prefab: {fileID: 1621594947411863754, guid: 49661449269eb71468b02e1c72ff7bcf,
+        type: 3}
+      Position: {x: -23.039999, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 84.479996, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 53.76, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 48.64, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 7.68, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: -23.039999, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: -17.92, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: -12.799999, y: 38.399998, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 4737374166940762480, guid: 394f5bdbeb05ddc4e9ea0f486d476c20,
+        type: 3}
+      Position: {x: 176.64, y: 104.96, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    movablePlatformList:
+    - Prefab: {fileID: 6160096272548611748, guid: 20613c7b847c71d4ca0872d734de628a,
+        type: 3}
+      Position: {x: 23.039999, y: 110.079994, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Data: {fileID: 11400000, guid: 79fcf9452b30f074da67259026302b39, type: 2}
+    - Prefab: {fileID: 6160096272548611748, guid: 20613c7b847c71d4ca0872d734de628a,
+        type: 3}
+      Position: {x: 48.64, y: 69.119995, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Data: {fileID: 11400000, guid: 18a339d472d617545830c20e0b195f58, type: 2}
+    - Prefab: {fileID: 6160096272548611748, guid: 20613c7b847c71d4ca0872d734de628a,
+        type: 3}
+      Position: {x: 74.24, y: 110.079994, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Data: {fileID: 11400000, guid: fd719749572ccd84aa412103ca677717, type: 2}
+    - Prefab: {fileID: 6160096272548611748, guid: 20613c7b847c71d4ca0872d734de628a,
+        type: 3}
+      Position: {x: 115.2, y: 80, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Data: {fileID: 11400000, guid: e5f1e5b776f67d54b993e72240bde71c, type: 2}
+    - Prefab: {fileID: 5413610592012198318, guid: 43cc40aa70a7bb94abe424f8e8a3a8e7,
+        type: 3}
+      Position: {x: 161.5, y: 86, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Data: {fileID: 11400000, guid: 18a339d472d617545830c20e0b195f58, type: 2}
     cannonList:
     - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
         type: 3}
@@ -624,3 +695,731 @@ MonoBehaviour:
       Position: {x: 17.92, y: 48.64, z: 2.56}
       Rotation: {x: -0, y: -0, z: -0, w: 1}
       Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 7.68, y: 104.96, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 7.68, y: 94.72, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 7.68, y: 84.479996, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 7.68, y: 74.24, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 7.68, y: 64, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+  - id:
+      Id: 3
+      Category: 1
+    blockInfoList:
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: -5.12, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 0, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 10.24, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 20.48, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 30.72, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 40.96, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 51.199997, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 61.44, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 71.68, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 81.92, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 92.159996, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 102.399994, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 112.64, y: -5.12}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 122.88, y: -5.12}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 128, y: -5.12}
+    - Id:
+        Id: 4
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 0}
+    - Id:
+        Id: 4
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 0}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 5.12}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 35.84, y: 5.12}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 5.12}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 15.36}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 20.48, y: 15.36}
+    - Id:
+        Id: 7
+        Type: 5
+        Category: 1
+      Position: {x: 71.68, y: 15.36}
+    - Id:
+        Id: 4
+        Type: 5
+        Category: 1
+      Position: {x: 92.159996, y: 15.36}
+    - Id:
+        Id: 4
+        Type: 5
+        Category: 1
+      Position: {x: 107.52, y: 15.36}
+    - Id:
+        Id: 4
+        Type: 5
+        Category: 1
+      Position: {x: 122.88, y: 15.36}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 15.36}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 25.599998}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 35.84, y: 25.599998}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 61.44, y: 25.599998}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 25.599998}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 35.84}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 35.84}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 20.48, y: 40.96}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 76.799995, y: 40.96}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 117.759995, y: 40.96}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 46.079998}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 46.079998}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 56.32}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 35.84, y: 56.32}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 61.44, y: 56.32}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 56.32}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 117.759995, y: 61.44}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 66.56}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 117.759995, y: 66.56}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 66.56}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 20.48, y: 71.68}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 76.799995, y: 71.68}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 76.799995}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 76.799995}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 87.04}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 35.84, y: 87.04}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 40.96, y: 87.04}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 51.199997, y: 87.04}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 56.32, y: 87.04}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 117.759995, y: 87.04}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 87.04}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 97.28}
+    - Id:
+        Id: 2
+        Type: 6
+        Category: 1
+      Position: {x: 117.759995, y: 97.28}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 97.28}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 107.52}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 97.28, y: 107.52}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 102.399994, y: 107.52}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 112.64, y: 107.52}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 117.759995, y: 107.52}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 107.52}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 117.759995}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 51.199997, y: 117.759995}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 81.92, y: 117.759995}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 117.759995}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 66.56, y: 122.88}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 128}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 35.84, y: 128}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 128}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 20.48, y: 133.12}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 138.23999}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 138.23999}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 35.84, y: 143.36}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 148.48}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 51.199997, y: 148.48}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 148.48}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 66.56, y: 153.59999}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 158.72}
+    - Id:
+        Id: 5
+        Type: 6
+        Category: 1
+      Position: {x: 81.92, y: 158.72}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 158.72}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 168.95999}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 168.95999}
+    - Id:
+        Id: 4
+        Type: 6
+        Category: 1
+      Position: {x: -10.24, y: 174.08}
+    - Id:
+        Id: 4
+        Type: 6
+        Category: 1
+      Position: {x: 133.12, y: 174.08}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: -5.12, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 0, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 10.24, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 20.48, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 30.72, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 40.96, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 51.199997, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 61.44, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 71.68, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 81.92, y: 179.2}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 87.04, y: 179.2}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 107.52, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 112.64, y: 179.2}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: 122.88, y: 179.2}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: 128, y: 179.2}
+    - Id:
+        Id: 11
+        Type: 2
+        Category: 1
+      Position: {x: 10.24, y: 184.31999}
+    - Id:
+        Id: 2
+        Type: 2
+        Category: 1
+      Position: {x: 20.48, y: 184.31999}
+    - Id:
+        Id: 24
+        Type: 2
+        Category: 1
+      Position: {x: 25.599998, y: 184.31999}
+    - Id:
+        Id: 1
+        Type: 2
+        Category: 1
+      Position: {x: 30.72, y: 184.31999}
+    - Id:
+        Id: 21
+        Type: 2
+        Category: 1
+      Position: {x: 35.84, y: 184.31999}
+    - Id:
+        Id: 18
+        Type: 2
+        Category: 1
+      Position: {x: 40.96, y: 184.31999}
+    - Id:
+        Id: 17
+        Type: 2
+        Category: 1
+      Position: {x: 15.36, y: 189.44}
+    - Id:
+        Id: 14
+        Type: 2
+        Category: 1
+      Position: {x: 35.84, y: 189.44}
+    - Id:
+        Id: 6
+        Type: 3
+        Category: 1
+      Position: {x: 15.36, y: 194.56}
+    - Id:
+        Id: 8
+        Type: 3
+        Category: 1
+      Position: {x: 10.24, y: 199.68}
+    - Id:
+        Id: 6
+        Type: 2
+        Category: 1
+      Position: {x: 15.36, y: 199.68}
+    - Id:
+        Id: 4
+        Type: 2
+        Category: 1
+      Position: {x: 25.599998, y: 199.68}
+    - Id:
+        Id: 5
+        Type: 2
+        Category: 1
+      Position: {x: 30.72, y: 199.68}
+    customBlockInfoList:
+    - Prefab: {fileID: 1621594947411863754, guid: 49661449269eb71468b02e1c72ff7bcf,
+        type: 3}
+      Position: {x: 12.799999, y: 7.68, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 69.119995, y: 20.48, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 74.24, y: 20.48, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 84.479996, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 89.6, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 99.84, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 104.96, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 115.2, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 120.32, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 110.079994, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 130.56, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 125.439995, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 8168421736485585317, guid: ec79d5faa0710e640a3883d59cbdc8f2,
+        type: 3}
+      Position: {x: 94.72, y: 2.56, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    - Prefab: {fileID: 4737374166940762480, guid: 394f5bdbeb05ddc4e9ea0f486d476c20,
+        type: 3}
+      Position: {x: 48.64, y: 192, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+    movablePlatformList:
+    - Prefab: {fileID: 6160096272548611748, guid: 20613c7b847c71d4ca0872d734de628a,
+        type: 3}
+      Position: {x: 99.84, y: 166.4, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Data: {fileID: 11400000, guid: 18a339d472d617545830c20e0b195f58, type: 2}
+    cannonList:
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 43.52, y: 33.28, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 43.52, y: 64, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 43.52, y: 79.36, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 43.52, y: 53.76, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: -2.56, y: 140.8, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 2.56, y: 125.439995, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 7.68, y: 156.16, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 0
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 43.52, y: 115.2, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 2
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 79.36, y: 115.2, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 2
+    - Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
+        type: 3}
+      Position: {x: 28.16, y: 115.2, z: 2.56}
+      Rotation: {x: -0, y: -0, z: -0, w: 1}
+      Direction: 2

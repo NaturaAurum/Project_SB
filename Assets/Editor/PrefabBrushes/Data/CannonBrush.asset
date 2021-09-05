@@ -39,4 +39,4 @@ MonoBehaviour:
   m_Anchor: {x: 0.5, y: 0.5, z: 0.5}
   m_Prefab: {fileID: 7204455050890491013, guid: 02fe93034ed5590468515e1840c7af92,
     type: 3}
-  Direction: 0
+  Direction: 2

@@ -50,4 +50,16 @@ namespace SB.GameLogic.Command
     {
         
     }
+
+    public class CameraShakeCommand : ICommand
+    {
+        public float Strength;
+        public float Time;
+
+        public CameraShakeCommand(float strength, float time)
+        {
+            Strength = strength;
+            Time = time;
+        }
+    }
 }

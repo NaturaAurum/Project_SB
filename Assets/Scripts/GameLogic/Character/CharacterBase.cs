@@ -24,6 +24,8 @@ namespace SB.GameLogic.Character
         public int RemainJumpCount { get; private set; }
         
         public Vector2 MoveDirection { get; private set; }
+        
+        public Transform CamTarget { get; set; }
 
         private void Awake()
         {

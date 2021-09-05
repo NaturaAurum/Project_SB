@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 844b56ad43b64d29ba43442aec1b45dc, type: 3}
+  m_Name: MapData
+  m_EditorClassIdentifier: 
+  values:
+  - id:
+      Id: 0
+      Category: 0
+    blockInfoList:
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: -15.36}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: -5.12}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: -5.12, y: -5.12}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 15.36, y: 0}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 35.84, y: 0}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 51.199997, y: 0}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 66.56, y: 0}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 5.12}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 87.04, y: 5.12}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 102.399994, y: 5.12}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 122.88, y: 5.12}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 15.36}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 143.36, y: 15.36}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 25.599998}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 133.12, y: 25.599998}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 35.84}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 112.64, y: 35.84}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: -5.12, y: 40.96}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 15.36, y: 40.96}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 35.84, y: 40.96}
+    - Id:
+        Id: 8
+        Type: 5
+        Category: 1
+      Position: {x: 56.32, y: 40.96}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 92.159996, y: 40.96}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 46.079998}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: -20.48, y: 46.079998}
+    - Id:
+        Id: 5
+        Type: 5
+        Category: 1
+      Position: {x: 76.799995, y: 46.079998}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 56.32}
+    - Id:
+        Id: 3
+        Type: 5
+        Category: 1
+      Position: {x: -20.48, y: 56.32}
+    - Id:
+        Id: 1
+        Type: 6
+        Category: 1
+      Position: {x: 0, y: 61.44}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 66.56}
+    - Id:
+        Id: 6
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 76.799995}
+    - Id:
+        Id: 1
+        Type: 6
+        Category: 1
+      Position: {x: -35.84, y: 87.04}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: -25.599998, y: 87.04}
+    - Id:
+        Id: 12
+        Type: 6
+        Category: 1
+      Position: {x: -15.36, y: 87.04}

@@ -166,38 +166,47 @@ namespace SB.Ingame.Environment.Map.MapTool
                 tileMap.SetTile(cellPos, tile);
             }
 
-            foreach (var customBlock in customBlockList)
+            if (customBlockList != null)
             {
-                var instance = (GameObject)PrefabUtility.InstantiatePrefab(customBlock.Prefab);
-                if (instance != null)
+                foreach (var customBlock in customBlockList)
                 {
-                    instance.transform.SetParent(tileMap.transform);
-                    instance.transform.position = customBlock.Position;
-                    instance.transform.rotation = customBlock.Rotation;
+                    var instance = (GameObject) PrefabUtility.InstantiatePrefab(customBlock.Prefab);
+                    if (instance != null)
+                    {
+                        instance.transform.SetParent(tileMap.transform);
+                        instance.transform.position = customBlock.Position;
+                        instance.transform.rotation = customBlock.Rotation;
+                    }
                 }
             }
-            
-            foreach (var movablePlatformInfo in movablePlatformList)
+
+            if (movablePlatformList != null)
             {
-                var instance = (GameObject)PrefabUtility.InstantiatePrefab(movablePlatformInfo.Prefab);
-                if (instance != null)
+                foreach (var movablePlatformInfo in movablePlatformList)
                 {
-                    instance.transform.SetParent(tileMap.transform);
-                    instance.transform.position = movablePlatformInfo.Position;
-                    instance.transform.rotation = movablePlatformInfo.Rotation;
-                    instance.GetComponent<MovablePlatform>().Data = movablePlatformInfo.Data;
+                    var instance = (GameObject) PrefabUtility.InstantiatePrefab(movablePlatformInfo.Prefab);
+                    if (instance != null)
+                    {
+                        instance.transform.SetParent(tileMap.transform);
+                        instance.transform.position = movablePlatformInfo.Position;
+                        instance.transform.rotation = movablePlatformInfo.Rotation;
+                        instance.GetComponent<MovablePlatform>().Data = movablePlatformInfo.Data;
+                    }
                 }
             }
-            
-            foreach (var cannonInfo in cannonList)
+
+            if (cannonList != null)
             {
-                var instance = (GameObject)PrefabUtility.InstantiatePrefab(cannonInfo.Prefab);
-                if (instance != null)
+                foreach (var cannonInfo in cannonList)
                 {
-                    instance.transform.SetParent(tileMap.transform);
-                    instance.transform.position = cannonInfo.Position;
-                    instance.transform.rotation = cannonInfo.Rotation;
-                    instance.GetComponent<CannonCondition>().observingDirection = cannonInfo.Direction;
+                    var instance = (GameObject) PrefabUtility.InstantiatePrefab(cannonInfo.Prefab);
+                    if (instance != null)
+                    {
+                        instance.transform.SetParent(tileMap.transform);
+                        instance.transform.position = cannonInfo.Position;
+                        instance.transform.rotation = cannonInfo.Rotation;
+                        instance.GetComponent<CannonCondition>().observingDirection = cannonInfo.Direction;
+                    }
                 }
             }
         }

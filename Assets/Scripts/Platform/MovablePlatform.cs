@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace Platform
 {
-    public class MoveablePlatform : MonoBehaviour
+    public class MovablePlatform : MonoBehaviour
     {
-        public MoveablePlatformData Data;
+        public MovablePlatformData Data;
 
         [ReadOnly] [SerializeField] private int currentIndex;
         [ReadOnly] [SerializeField] private float moveTimer;

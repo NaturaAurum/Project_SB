@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5413610592012198316}
   - component: {fileID: 5413610592012198319}
   - component: {fileID: 5413610592012198317}
+  - component: {fileID: 5757437921360498041}
   m_Layer: 0
   m_Name: MovablePlatformShort
   m_TagString: Untagged
@@ -101,3 +102,29 @@ MonoBehaviour:
   currentIndex: 0
   moveTimer: 0
   waitTimer: 0
+--- !u!61 &5757437921360498041
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413610592012198318}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.81, y: 3.68}
+    newSize: {x: 3.81, y: 3.68}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.81, y: 3.68}
+  m_EdgeRadius: 0

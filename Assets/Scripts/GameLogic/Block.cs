@@ -10,15 +10,15 @@ namespace SB.GameLogic
         public BlockId Id;
 
         [SerializeField]
-        [Required]
         private SpriteRenderer spriteRenderer = null;
 
         [SerializeField]
-        [Required]
-        private PolygonCollider2D collider = null;
+        private BoxCollider2D collider = null;
 
         public void SetSprite()
         {
+            if (spriteRenderer == null)
+                spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
             var blockSprites = DataContainer.BlockSpriteData;
             var sprite = blockSprites.GetValue(Id);
 
@@ -26,13 +26,18 @@ namespace SB.GameLogic
 
             var path = new List<Vector2>();
 
-            collider.pathCount = sprite.Sprite.GetPhysicsShapeCount();
-            for (var i = 0; i < collider.pathCount; i++)
-            {
-                path.Clear();
-                sprite.Sprite.GetPhysicsShape(i, path);
-                collider.SetPath(i, path.ToArray());
-            }
+            if (collider == null)
+                collider = gameObject.AddComponent<BoxCollider2D>();
+
+            collider.size = sprite.Sprite.bounds.size;
+
+            // collider.pathCount = sprite.Sprite.GetPhysicsShapeCount();
+            // for (var i = 0; i < collider.pathCount; i++)
+            // {
+            //     path.Clear();
+            //     sprite.Sprite.GetPhysicsShape(i, path);
+            //     collider.SetPath(i, path.ToArray());
+            // }
         }
     }
 }

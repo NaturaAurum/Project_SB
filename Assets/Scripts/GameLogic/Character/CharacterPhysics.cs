@@ -16,13 +16,17 @@ namespace SB.GameLogic.Character
         
         private CharacterBase character = null;
         private CharacterData characterData = null;
+        #if UNITY_EDITOR
+        public CharacterState CurrentState => currentState;
+        #endif
+        
         private CharacterState currentState = null;
         private CapsuleCollider2D collider = null;
         private Rigidbody2D rig = null;
         private RaycastHit2D[] groundCastResult = new RaycastHit2D[2];
         private bool isGround = true;
 
-        private const string GROUND = "Ground";
+        private const string GROUND = "Default";
         private int groundLayer => 1 << LayerMask.NameToLayer(GROUND);
         
         private delegate void ComputeVelocity(ref Vector2 vel);
@@ -89,22 +93,74 @@ namespace SB.GameLogic.Character
         private void FixedUpdate()
         {
             GroundCheck();
+            HangCheck();
             if (currentState != null)
             {
                 CalcVelocity(currentState.UpdatePhysics);
             }
         }
 
+        private void OnDrawGizmos()
+        {
+            if (collider != null)
+            {
+                var halfHeight = collider.size.y * 0.5f;
+                var radius = collider.size.x * 0.1f;
+                Gizmos.color = Color.yellow;
+                Gizmos.DrawWireSphere(
+                    (transform.position + Vector3.up * halfHeight) +
+                    (Vector3.down * ((halfHeight - radius) + groundCheckDis)), radius);
+
+                Gizmos.color = Color.red;
+                var dir = rig.velocity;
+                dir.y = 0;
+                Gizmos.DrawRay(character.CamTarget.position, dir.normalized * character.CharacterData.HangCastDistance);
+            }
+        }
+
         private void GroundCheck()
         {
-            var groundNow = Physics2D.RaycastNonAlloc(transform.position, Vector3.down, groundCastResult,
-                groundCheckDis,
-                groundLayer) > 0;
+            var halfHeight = collider.size.y * 0.5f;
+            var radius = collider.size.x * 0.1f;
+
+            var hit = Physics2D.CircleCast(transform.position + Vector3.up * halfHeight, radius, Vector3.down,
+                (halfHeight - radius) + groundCheckDis, groundLayer);
+
+            var groundNow = hit.collider != null;
+
+            // var groundNow = Physics2D.RaycastNonAlloc(transform.position, Vector3.down, groundCastResult,
+            //     groundCheckDis,
+            //     groundLayer) > 0;
 
             if (isGround != groundNow)
             {
                 isGround = groundNow;
                 CommandDispatcher.Dispatch(isGround ? (ICommand) new ToGroundCommand() : new ToAirCommand());
+            }
+        }
+
+        private void HangCheck()
+        {
+            if (currentState is HangState)
+            {
+                character.CanHang = false;
+                return;
+            }
+
+            var dir = character.MoveDirection;
+            dir.y = 0;
+
+            var hit = Physics2D.Raycast(character.CamTarget.position, dir, character.CharacterData.HangCastDistance, groundLayer);
+            var normal = hit.normal;
+
+            if (hit.collider != null)
+            {
+                var angle = Vector3.Angle(Vector3.up, normal);
+                character.CanHang = angle > 0 && angle <= 90f;
+            }
+            else
+            {
+                character.CanHang = false;
             }
         }
 

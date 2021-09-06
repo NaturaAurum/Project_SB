@@ -12,7 +12,11 @@ namespace SB.GameLogic.Character
         public override CharacterStateType Type => CharacterStateType.Air;
         protected override void DoCommand(ICommand command)
         {
-            if (CanJump(command))
+            if (CanHang(command))
+            {
+                nextState = new HangState(character);
+            }
+            else if (CanJump(command))
             {
                 nextState = new JumpState(character);
             }

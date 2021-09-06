@@ -34,6 +34,10 @@ namespace SB.GameLogic.Character
         [LabelText("최대 낙하 속도")]
         public float FallingMaxSpeed;
 
+        [FoldoutGroup("Air Physics")]
+        [LabelText("매달리기 중력값")]
+        public float HangGravityPower;
+
         [FoldoutGroup("Jump")]
         [LabelText("점프에 줄 힘 값")]
         public float JumpPower;
@@ -65,6 +69,10 @@ namespace SB.GameLogic.Character
         [FoldoutGroup("Collider")]
         [LabelText("캡슐 콜라이더 방향")]
         public CapsuleDirection2D Direction;
+
+        [FoldoutGroup("Collider")]
+        [LabelText("매달리기 체크 거리")]
+        public float HangCastDistance = 0.1f;
 
         [FoldoutGroup("Model")]
         [LabelText("모델 프리팹")]

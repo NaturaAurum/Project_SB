@@ -27,15 +27,20 @@ namespace SB.GameLogic.Character
         public Vector2 MoveDirection { get; private set; }
         
         public Transform CamTarget { get; set; }
+        
+        public bool CanHang { get; set; }
 
         private void Awake()
         {
             CommandDispatcher.AddListener(this);
 
-            RemainJumpCount = CharacterData.MaxJumpCount;
-            
             OnEnterState += InternalOnEnterState;
             OnExitState += InternalOnExitState;
+        }
+
+        private void Start()
+        {
+            RemainJumpCount = CharacterData.MaxJumpCount;
         }
 
         private void OnDestroy()

@@ -16,10 +16,6 @@ namespace SB.GameLogic.Character
         private void Awake()
         {
             character = GetComponent<CharacterBase>();
-        }
-
-        private void Start()
-        {
             var characterData = character.CharacterData;
             var prefab = characterData.ModelPrefab;
             var modelInstance = Instantiate(prefab, transform);

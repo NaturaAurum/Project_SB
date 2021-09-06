@@ -19,8 +19,6 @@ namespace SB.GameLogic
         [SerializeField]
         [Required]
         private CinemachineTargetGroup targetGroup = null;
-
-        private CinemachineBasicMultiChannelPerlin noiseModule = null;
         private CinemachineFramingTransposer transposer = null;
 
         private CinemachineBrain coreLogic = null;
@@ -42,9 +40,6 @@ namespace SB.GameLogic
                     this.transposer = transposer;
                 }
             }
-
-            noiseModule.m_AmplitudeGain = 0f;
-            noiseModule.m_FrequencyGain = 12f;
         }
 
         public void SetCharacter(CharacterBase character)

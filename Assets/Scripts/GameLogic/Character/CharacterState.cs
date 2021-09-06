@@ -49,6 +49,7 @@ namespace SB.GameLogic.Character
         protected abstract void DoCommand(ICommand command);
 
         protected bool CanJump(ICommand command) => command is JumpCommand && character.CanJump;
+        protected bool CanHang(ICommand command) => command is JumpCommand && character.CanHang;
 
         protected void FindNextState()
         {

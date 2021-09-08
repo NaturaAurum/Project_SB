@@ -6,21 +6,21 @@ namespace Obstacle.Spike
     {
         private bool IsActivated { get; set; }
 
-        private void OnCollisionEnter2D(Collision2D other)
-        {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                IsActivated = true;
-            }
-        }
-
-        private void OnCollisionExit2D(Collision2D other)
-        {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                IsActivated = false;
-            }
-        }
+        // private void OnCollisionEnter2D(Collision2D other)
+        // {
+        //     if (other.gameObject.CompareTag("Player"))
+        //     {
+        //         IsActivated = true;
+        //     }
+        // }
+        //
+        // private void OnCollisionExit2D(Collision2D other)
+        // {
+        //     if (other.gameObject.CompareTag("Player"))
+        //     {
+        //         IsActivated = false;
+        //     }
+        // }
 
 
         public bool CheckCondition()

@@ -36,6 +36,7 @@ namespace SB.GameLogic
         private void MapSettingDone()
         {
             var characterObject = new GameObject("Character");
+            characterObject.tag = "Player";
             var characterBase = characterObject.AddComponent<CharacterBase>();
             characterBase.CharacterData = DataContainer.CharacterCommonData;
             characterObject.AddComponent<CharacterStateMachine>();

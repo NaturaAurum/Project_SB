@@ -18,15 +18,14 @@ namespace Obstacle.Cannon
         public void DoAction()
         {
             if (!_flag) return;
-            Debug.Log("shoot");
             Shoot();
         }
 
         private void Shoot()
         {
-            var bullet = Instantiate(bulletObj, transform.position, transform.rotation);
-            var rigid = bullet.GetComponent<Rigidbody2D>();
-            rigid.AddForce(DirectionHelper.DirectionToVector(_direction) * 10, ForceMode2D.Impulse);
+            var bulletInstance = Instantiate(bulletObj, transform.position, transform.rotation);
+            var bullet = bulletInstance.GetComponent<Bullet.Bullet>();
+            bullet.Shoot(DirectionHelper.DirectionToVector(_direction) * 10f, this);
             _flag = false;
         }
 

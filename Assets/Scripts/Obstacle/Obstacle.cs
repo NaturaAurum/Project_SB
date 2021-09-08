@@ -1,3 +1,5 @@
+using System;
+using SB.GameLogic.Command;
 using UnityEngine;
 
 namespace Obstacle
@@ -18,6 +20,15 @@ namespace Obstacle
             if (_condition.CheckCondition()) 
             {
                 _action?.DoAction();
+            }
+        }
+
+        private void OnCollisionEnter2D(Collision2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                Debug.Log($"Player Hit! {gameObject.name}[{transform.GetSiblingIndex()}]");
+                CommandDispatcher.Dispatch(new CharacterHitCommand());
             }
         }
     }

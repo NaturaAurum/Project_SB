@@ -19,6 +19,7 @@ MonoBehaviour:
   AirMaxSpeed: 11
   GravityPower: 50
   FallingMaxSpeed: 15
+  HangGravityPower: 0
   JumpPower: 20
   MaxJumpCount: 2
   RecoveryJumpCount: 1
@@ -26,6 +27,7 @@ MonoBehaviour:
   offset: {x: 0, y: 0.15}
   size: {x: 0.2, y: 0.3}
   Direction: 0
+  HangCastDistance: 1.5
   ModelPrefab: {fileID: 5207847898117037165, guid: 7d6838b520e5c014db1f9a8f327cd169,
     type: 3}
   Scale: 10
